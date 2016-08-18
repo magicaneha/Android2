@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        
+        android:id="@+id/editEno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emp no" />
+
+    <EditText
+        android:id="@+id/editEname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emp name" />
+    <EditText
+        android:id="@+id/editBasic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emp basic" />
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Emp email" />
+</LinearLayout>

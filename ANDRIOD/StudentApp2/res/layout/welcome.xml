@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homescreen"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnNew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"       
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_new"
+        android:text="New User"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"        
+        android:layout_below="@+id/btnNew"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_list"
+        android:text="Student List"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/tvStudentApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnNew"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="71dp"
+        android:text="STUDENT APP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
